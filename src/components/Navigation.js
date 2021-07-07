@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Container } from "@material-ui/core";
+import { Button, Container, Grid } from "@material-ui/core";
 
 import logo from '../static/logo.svg';
 
@@ -10,7 +10,7 @@ function Navigation() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 150) {
+      if (window.scrollY > 200) {
         setActive(true);
       } else {
         setActive(false);
@@ -19,15 +19,15 @@ function Navigation() {
   }, []);
   
   return (
-    <div className={`NavBar ${active && "active"}`}>
+    <div className={`Navigation ${active && "active"}`}>
       <Container>
-        <div className="NavBar_Container">
-          <img className="NavBar_Logo"
+        <div className="Navigation_Container">
+          <a href="/"><img
             src={logo}
             alt=""
-          />
+          /></a>
 
-          <div className="NavBar_Lists">
+          <div className="Navigation_Links">
             <ul>
               <li>Our Story</li>
               <li>Membership</li>
