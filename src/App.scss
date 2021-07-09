@@ -281,13 +281,39 @@
   }
   .Post_Bookmark {
     vertical-align: text-top;
-    float: right;
-    padding-right: 10px;
   }
   .Post_Image {
     margin-left: 15px;
     @media screen and (max-width: 576px) {
       width: 150px;
+    }
+  }
+}
+
+.Discover{
+  padding-top: 40px;
+  
+  float: right;
+  .Discover_Headline {
+    p {
+      color: #292929;
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 700;
+    }
+  }
+  .Discover_Categories{
+    p {
+      margin-bottom: -5px;
+      margin-right: 8px;
+      padding: 6px 16px;
+      border: 1px solid rgba(230, 230, 230, 1);
+      border-radius: 3px;
+      display: inline-block;
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 400;
+      color: rgba(117, 117, 117, 1);
     }
   }
 }
