@@ -29,10 +29,10 @@ function Navigation() {
 
           <div className="Navigation_Links">
             <ul>
-              <li>Our Story</li>
-              <li>Membership</li>
-              <li>Write</li>
-              <li>Sign In</li>
+              <li className="Navigation_Link_Mobile">Our Story</li>
+              <li className="Navigation_Link_Mobile">Membership</li>
+              <li className="Navigation_Link_Mobile">Write</li>
+              <li className="Navigation_Link_Mobile">Sign In</li>
               <li>
                 <Button>Get Started</Button>
               </li>
