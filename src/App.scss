@@ -142,6 +142,7 @@
     img{
       vertical-align: bottom;
       border-radius: 50px;
+      cursor: pointer;
     }
 
     h4 {
@@ -151,6 +152,7 @@
       font-size: 13px;
       font-weight: 500;
       line-height: 16px;
+      cursor: pointer;
     }
 
     h2 {
@@ -159,6 +161,7 @@
       font-weight: 700;
       padding-left: 55px;
       max-width: 300px;
+      cursor: pointer;
       
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -195,7 +198,6 @@
   align-items: center;
   justify-content: flex-start;
   margin: 30px 0;
-  cursor: pointer;
   width: 100%;
   .Post_Body {
     .Discover_User {
@@ -204,10 +206,12 @@
         font-size: 13px;
         line-height: 16px;
         font-weight: 500;
+        cursor: pointer;
       }
       img {
         vertical-align: bottom;
         border-radius: 50px;
+        cursor: pointer;
       }
     }
     h2 {
@@ -215,6 +219,7 @@
       padding-bottom: 5px;
       margin: 0px;
       font-size: 22px;
+      cursor: pointer;
 
       @media screen and (max-width: 576px) {
         font-size: 16px;
@@ -239,11 +244,13 @@
     h3 {
       padding: 0px;
       margin: 0px;
+      padding-bottom: 8px;
 
       color: #757575;
       line-height: 20px;
       font-size: 16px;
       font-weight: 400;
+      cursor: pointer;
 
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -276,6 +283,7 @@
     background-color: #f2f2f2;
     padding: 2px 8px;
     border-radius: 100px;
+    cursor: pointer;
     @media screen and (max-width: 576px) {
       display: none
     }
@@ -291,8 +299,11 @@
   }
   .Post_Bookmark {
     vertical-align: text-top;
+    float: right;
+    cursor: pointer;
   }
   .Post_Image {
+    cursor: pointer;
     margin-left: 15px;
     @media screen and (max-width: 576px) {
       width: 150px;
@@ -325,6 +336,7 @@
       line-height: 20px;
       font-weight: 400;
       color: rgba(117, 117, 117, 1);
+      cursor: pointer;
     }
   }
 }
@@ -336,6 +348,7 @@
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+    cursor: pointer;
   }
 }
 .Footer_Menu {
@@ -348,6 +361,8 @@
     line-height: 20px;
     font-weight: 400;
     display: inline-block;
+    cursor: pointer;
+    
 
     margin-bottom: -5px;
     margin-right: 25px;

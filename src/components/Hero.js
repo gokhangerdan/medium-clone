@@ -13,7 +13,7 @@ function Hero() {
               Everyone’s welcome. <a href="!#">Learn more.</a>
             </p>
 
-            <Button>Start Writing</Button>
+            <Button disableRipple={true}>Start Writing</Button>
           </Grid>
         </Grid>
       </Container>

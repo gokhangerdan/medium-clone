@@ -3,12 +3,12 @@ import { Button, Container, Grid } from "@material-ui/core";
 import TrendingPost from "../components/TrendingPost";
 
 import trending from '../static/trending.svg';
-import user1 from '../static/user1.png'
-import user2 from '../static/user2.png'
-import user3 from '../static/user3.png'
-import user4 from '../static/user4.png'
-import user5 from '../static/user5.png'
-import user6 from '../static/user6.png'
+import user1 from '../static/user1.png';
+import user2 from '../static/user2.png';
+import user3 from '../static/user3.png';
+import user4 from '../static/user4.png';
+import user5 from '../static/user5.png';
+import user6 from '../static/user6.png';
 
 function Trending() {
   return (
